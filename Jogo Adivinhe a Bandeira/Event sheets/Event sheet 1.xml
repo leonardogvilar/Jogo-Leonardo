@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="168970720601350">
+            <conditions>
+                <condition id="0" name="On clicked" sid="665779723044266" type="Jogar" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="395605094047141" type="System">
+                    <param id="0" name="Layout">Pergunta1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="359715152093818">
+            <conditions>
+                <condition id="0" name="On clicked" sid="207979860046913" type="Estadosunidos" />
+            </conditions>
+            <actions>
+                <action id="-17" name="Move forward" sid="538396164900826" type="animation">
+                    <param id="0" name="Distance">1000</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="939450371201212" type="System">
+                    <param id="0" name="Layout">Pergunta2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="301986272435988">
+            <conditions>
+                <condition id="0" name="On clicked" sid="634968984236486" type="nzelandia" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="227444620005005" type="System">
+                    <param id="0" name="Layout">Pergunta3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="522705735586599">
+            <conditions>
+                <condition id="0" name="On clicked" sid="700537218975754" type="argelia" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="192320674111038" type="System">
+                    <param id="0" name="Layout">Pergunta4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="664020168766762">
+            <conditions>
+                <condition id="0" name="On clicked" sid="769124766022313" type="Singapura" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="695232221497799" type="System">
+                    <param id="0" name="Layout">Pergunta5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="951672807156344">
+            <conditions>
+                <condition id="0" name="On clicked" sid="715968260570840" type="Bahreim" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="174134181875742" type="System">
+                    <param id="0" name="Layout">Pergunta6</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="492271150612532">
+            <conditions>
+                <condition id="0" name="On clicked" sid="768961738050281" type="luxemburgo" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="515879581396220" type="System">
+                    <param id="0" name="Layout">Pergunta7</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="874321087534198">
+            <conditions>
+                <condition id="0" name="On clicked" sid="861012718392666" type="benin" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="533157876274771" type="System">
+                    <param id="0" name="Layout">Pergunta8</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="252886326906016">
+            <conditions>
+                <condition id="0" name="On clicked" sid="421769805677484" type="Kosovo" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="347914053012118" type="System">
+                    <param id="0" name="Layout">Pergunta9</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="902129660603279">
+            <conditions>
+                <condition id="0" name="On clicked" sid="104603913153388" type="butão" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="640464654553395" type="System">
+                    <param id="0" name="Layout">Pergunta10</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="228976410738059">
+            <conditions>
+                <condition id="0" name="On clicked" sid="744000777866067" type="srilanka" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="285875117273886" type="System">
+                    <param id="0" name="Layout">Vitória</param>
+                </action>
+                <action id="0" name="Play" sid="208666438033734" type="Audio">
+                    <param id="0" name="Audio file">Victory-Sound-Effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="871361097813732">
+            <conditions>
+                <condition id="0" name="On clicked" sid="695939134110064" type="albania" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="366847835823749" type="System">
+                    <param id="0" name="Layout">Derrota</param>
+                </action>
+                <action id="0" name="Play" sid="388774570936782" type="Audio">
+                    <param id="0" name="Audio file">Fail-Sound-Effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="457344746102475">
+            <conditions>
+                <condition id="0" name="On clicked" sid="760212608070172" type="asaudita" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="328482527495256" type="System">
+                    <param id="0" name="Layout">Derrota</param>
+                </action>
+                <action id="0" name="Play" sid="600900509735164" type="Audio">
+                    <param id="0" name="Audio file">Fail-Sound-Effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="862297438429213">
+            <conditions>
+                <condition id="0" name="On clicked" sid="206078039113165" type="Austrália" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="352379326594101" type="System">
+                    <param id="0" name="Layout">Derrota</param>
+                </action>
+                <action id="0" name="Play" sid="120490787546344" type="Audio">
+                    <param id="0" name="Audio file">Fail-Sound-Effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="395595304112454">
+            <conditions>
+                <condition id="0" name="On clicked" sid="664821640773929" type="bosnia" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="255924761354342" type="System">
+                    <param id="0" name="Layout">Derrota</param>
+                </action>
+                <action id="0" name="Play" sid="131868030910535" type="Audio">
+                    <param id="0" name="Audio file">Fail-Sound-Effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="610714338643634">
+            <conditions>
+                <condition id="0" name="On clicked" sid="134120436857792" type="botswana" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="967676408832349" type="System">
+                    <param id="0" name="Layout">Derrota</param>
+                </action>
+                <action id="0" name="Play" sid="223523477374253" type="Audio">
+                    <param id="0" name="Audio file">Fail-Sound-Effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="363272997446773">
+            <conditions>
+                <condition id="0" name="On clicked" sid="397205313050779" type="catar" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="975647095894202" type="System">
+                    <param id="0" name="Layout">Derrota</param>
+                </action>
+                <action id="0" name="Play" sid="997614103002555" type="Audio">
+                    <param id="0" name="Audio file">Fail-Sound-Effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="447441419443233">
+            <conditions>
+                <condition id="0" name="On clicked" sid="391895716773895" type="chade" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="515271749318057" type="System">
+                    <param id="0" name="Layout">Derrota</param>
+                </action>
+                <action id="0" name="Play" sid="599061388949063" type="Audio">
+                    <param id="0" name="Audio file">Fail-Sound-Effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="325962412319178">
+            <conditions>
+                <condition id="0" name="On clicked" sid="175678221777483" type="Chile" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="304552965851527" type="System">
+                    <param id="0" name="Layout">Derrota</param>
+                </action>
+                <action id="0" name="Play" sid="435029359859194" type="Audio">
+                    <param id="0" name="Audio file">Fail-Sound-Effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="949341916672039">
+            <conditions>
+                <condition id="0" name="On clicked" sid="854437427526114" type="Gabão" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="983693712261383" type="System">
+                    <param id="0" name="Layout">Derrota</param>
+                </action>
+                <action id="0" name="Play" sid="361600000806859" type="Audio">
+                    <param id="0" name="Audio file">Fail-Sound-Effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="729209201991630">
+            <conditions>
+                <condition id="0" name="On clicked" sid="918129063670463" type="Holanda" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="488880424432716" type="System">
+                    <param id="0" name="Layout">Derrota</param>
+                </action>
+                <action id="0" name="Play" sid="184617444408947" type="Audio">
+                    <param id="0" name="Audio file">Fail-Sound-Effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="223834686243402">
+            <conditions>
+                <condition id="0" name="On clicked" sid="193731683657103" type="Indonesia" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="611426089782471" type="System">
+                    <param id="0" name="Layout">Derrota</param>
+                </action>
+                <action id="0" name="Play" sid="948181198134611" type="Audio">
+                    <param id="0" name="Audio file">Fail-Sound-Effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="496693004605254">
+            <conditions>
+                <condition id="0" name="On clicked" sid="595751719727379" type="Inglaterra" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="976154631360384" type="System">
+                    <param id="0" name="Layout">Derrota</param>
+                </action>
+                <action id="0" name="Play" sid="635783514620476" type="Audio">
+                    <param id="0" name="Audio file">Fail-Sound-Effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="358137472739033">
+            <conditions>
+                <condition id="0" name="On clicked" sid="832255148815707" type="myanmar" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="176315489151467" type="System">
+                    <param id="0" name="Layout">Derrota</param>
+                </action>
+                <action id="0" name="Play" sid="519606796369595" type="Audio">
+                    <param id="0" name="Audio file">Fail-Sound-Effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="758811265791601">
+            <conditions>
+                <condition id="0" name="On clicked" sid="503392508147016" type="Nepal" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="690961915236327" type="System">
+                    <param id="0" name="Layout">Derrota</param>
+                </action>
+                <action id="0" name="Play" sid="750601948810049" type="Audio">
+                    <param id="0" name="Audio file">Fail-Sound-Effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="993053089329678">
+            <conditions>
+                <condition id="0" name="On clicked" sid="333936937609895" type="nigeria" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="409425051317486" type="System">
+                    <param id="0" name="Layout">Derrota</param>
+                </action>
+                <action id="0" name="Play" sid="313542557868141" type="Audio">
+                    <param id="0" name="Audio file">Fail-Sound-Effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="328831115497342">
+            <conditions>
+                <condition id="0" name="On clicked" sid="982244942106244" type="paisebaixos" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="916251639206000" type="System">
+                    <param id="0" name="Layout">Derrota</param>
+                </action>
+                <action id="0" name="Play" sid="980760973024404" type="Audio">
+                    <param id="0" name="Audio file">Fail-Sound-Effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="689993076264923">
+            <conditions>
+                <condition id="0" name="On clicked" sid="928034965246495" type="PaísdeGales" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="436873360152471" type="System">
+                    <param id="0" name="Layout">Derrota</param>
+                </action>
+                <action id="0" name="Play" sid="439186889627820" type="Audio">
+                    <param id="0" name="Audio file">Fail-Sound-Effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="836357379687013">
+            <conditions>
+                <condition id="0" name="On clicked" sid="264854470149797" type="portorico" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="627611466511064" type="System">
+                    <param id="0" name="Layout">Derrota</param>
+                </action>
+                <action id="0" name="Play" sid="954680180857901" type="Audio">
+                    <param id="0" name="Audio file">Fail-Sound-Effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="626239561674810">
+            <conditions>
+                <condition id="0" name="On clicked" sid="418630282074745" type="quiguirstao" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="489002136919322" type="System">
+                    <param id="0" name="Layout">Derrota</param>
+                </action>
+                <action id="0" name="Play" sid="384573822757582" type="Audio">
+                    <param id="0" name="Audio file">Fail-Sound-Effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="968553866193643">
+            <conditions>
+                <condition id="0" name="On clicked" sid="364457985463163" type="Turquia" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="123729683397761" type="System">
+                    <param id="0" name="Layout">Derrota</param>
+                </action>
+                <action id="0" name="Play" sid="203201999966681" type="Audio">
+                    <param id="0" name="Audio file">Fail-Sound-Effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="417852890011997">
+            <conditions>
+                <condition id="0" name="On clicked" sid="292025557158793" type="Voltar" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="898117529555373" type="System">
+                    <param id="0" name="Layout">Início</param>
+                </action>
+                <action id="6" name="Stop" sid="804285415014173" type="Audio">
+                    <param id="0" name="Tag">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="862116194473037">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="748561127658905" type="System" />
+            </conditions>
+            <actions>
+                <action id="3" name="Start" sid="189613567081369" type="animation">
+                    <param id="0" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

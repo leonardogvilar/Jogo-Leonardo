@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2b36mpdu7gngn</unique-id>
+    <saved-with-version>27700</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
+    <used-behaviors />
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Título" sid="100156321993185">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Jogar" sid="743638594226509">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Bandeira1" sid="472170063256175">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="170851029107851" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501355" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Estadosunidos" sid="192290456170244">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="portorico" sid="559077271241638">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Chile" sid="503439582250516">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Bandeira2" sid="350095965706505">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="358811537421906" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Inglaterra" sid="212036026545770">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Austrália" sid="116773016067427">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="nzelandia" sid="671398497870930">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="derrota" sid="789755020588462">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="vitoria" sid="972795301046035">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="529435537407962" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="parabens" sid="808898254491962">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sair" sid="567578671745196">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="voceperdeu" sid="952262582704416">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Voltar" sid="174314689336127">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Bandeira3" sid="212886906645474">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="529239711157611" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500375" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="nigeria" sid="232284624583200">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="argelia" sid="162771026632893">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="asaudita" sid="771416417741710">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Bandeira4" sid="973601341159712">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="764223736773853" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Turquia" sid="376855009497606">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Singapura" sid="823277507337257">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Indonesia" sid="877122335406026">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Bandeira5" sid="134273520033611">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="653548244544054" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="catar" sid="165095533188396">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Nepal" sid="770354470374632">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Bahreim" sid="176113019671655">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="bandeira6" sid="767781277118106">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="120134304285536" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501333" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="paisebaixos" sid="968057165541616">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Holanda" sid="780894158550635">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="luxemburgo" sid="362858088588752">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="bandeira7" sid="827305544295747">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="413968079695880" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="chade" sid="912361958809797">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="benin" sid="355906522478941">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="botswana" sid="302372209674699">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="bandeira8" sid="362431638022783">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="487943765644534" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50035" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="albania" sid="395747825313713">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="bosnia" sid="194851961521243">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Kosovo" sid="214578896614655">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Bandeira9" sid="609493366942527">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="921577487893439" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="butão" sid="476905833785964">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Gabão" sid="852522105951187">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="PaísdeGales" sid="965491185150767">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Bandeira10" sid="533643504321451">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="498692720175742" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501253" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="srilanka" sid="509633887545832">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="quiguirstao" sid="516836831709778">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="myanmar" sid="699390093759720">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Sprite" sid="931800150263432">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="812458516886596" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="958453444949147">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="879765244560509" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\vilar\Downloads\giphy.gif" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="413010913826202">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="277744733513051" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500971" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Audio" sid="959728375352996">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="animation" sid="990857832558418">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="10" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="295416037097460" speed="5">
+                    <frame duration="1" hotspotX="0.501683" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501683" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501683" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501683" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501683" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501683" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501683" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501683" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501683" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501683" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Início.xml</layout>
+        <layout>Pergunta1.xml</layout>
+        <layout>Pergunta2.xml</layout>
+        <layout>Pergunta3.xml</layout>
+        <layout>Pergunta4.xml</layout>
+        <layout>Pergunta5.xml</layout>
+        <layout>Pergunta6.xml</layout>
+        <layout>Pergunta7.xml</layout>
+        <layout>Pergunta8.xml</layout>
+        <layout>Pergunta9.xml</layout>
+        <layout>Pergunta10.xml</layout>
+        <layout>Vitória.xml</layout>
+        <layout>Derrota.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Audio" uid="56">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder>
+        <file name="Fail-Sound-Effect.ogg" />
+        <file name="Joshua-McLean-Mountain-Trials-NO-COPYRIGHT-8-bit-Music.ogg" />
+        <file name="Victory-Sound-Effect.ogg" />
+    </sounds-folder>
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
